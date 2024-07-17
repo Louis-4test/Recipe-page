@@ -12,14 +12,16 @@ body {
 .container {
     width: 50%;
     max-width: 800px;
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     overflow: hidden;
     padding: 30px;
 }
 
-
+strong{
+    color: hsl(24, 5%, 18%);
+}
 
 .recipe-image {
     width: 100%;
@@ -29,6 +31,7 @@ body {
 h1 {
     font-size: 2em;
     margin: 20px 0;
+    color: hsl(24, 5%, 18%);
 }
 
 .description {
@@ -38,26 +41,26 @@ h1 {
 }
 
 .prep-time {
-    background-color: #f8e1e7;
+    background-color: hsl(30, 54%, 90%);
     padding: 25px;
     border-radius: 5px;
     margin-bottom: 20px;
 }
 
 h2 {
-    color: #8a4d36;
+    color: hsl(332, 51%, 32%);
     font-size: 1.5em;
 }
 
 h3{
-    color: #8a4d36;
+    color: hsl(332, 51%, 32%);
 }
 
 ul {
     text-align: left;
     list-style: disc;
     padding-left: 20px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid hsl(330, 100%, 98%);
 }
 
 ol {
@@ -78,7 +81,7 @@ table {
 
 td {
     padding: 10px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid hsl(330, 100%, 98%);
     text-align: left;
 }
 
